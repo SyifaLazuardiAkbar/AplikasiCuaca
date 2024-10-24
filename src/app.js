@@ -2,6 +2,7 @@ const path = require('path');
 const express = require('express');
 const hbs = require('hbs');
 const app = express();
+const port = process.env.PORT || 5000
 const geocode = require('./utils/geocode')
 const forecast = require('./utils/prediksiCuaca')
 
@@ -83,6 +84,6 @@ app.get('/penjelasan', (req, res) => {
 });
 
 // Jalankan server di port 5000
-app.listen(5000, () => { 
-    console.log('Server berjalan pada port 5000.');
+app.listen(port, () => { 
+    console.log('Server berjalan pada port' + port);
 });

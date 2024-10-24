@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #0d0d0d; /* Latar belakang gelap */
+    color: #f2f2f2; /* Warna teks terang */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Pusatkan konten secara horizontal */
+    justify-content: center; /* Pusatkan konten secara vertikal */
+    min-height: 100vh; /* Tinggi minimal sesuai viewport */
+    position: relative; /* Mengatur posisi relatif untuk latar belakang */
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/img/background1.jpg'); /* Gambar latar belakang */
+    background-size: cover;
+    background-position: center;
+    z-index: -1; /* Pastikan gambar latar di belakang konten */
+    filter: brightness(0.6); /* Mencerahkan latar belakang */
+}
+
+.form-container {
+    width: 100%; /* Lebar penuh untuk wadah */
+    max-width: 800px; /* Lebar maksimal untuk konten */
+    margin: 20px; /* Margin untuk seluruh container */
+    padding: 30px; /* Padding di dalam wadah */
+    background: rgba(255, 255, 255, 0.15); /* Latar belakang transparan */
+    border-radius: 15px; /* Sudut membulat */
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.3); /* Bayangan lembut */
+    text-align: center; /* Teks tengah */
+    backdrop-filter: blur(10px); /* Blur latar belakang */
+}
+
+header {
+    background-color: rgba(26, 26, 26, 0.8); /* Latar belakang header dengan transparansi */
+    color: #f2f2f2; /* Warna teks header */
+    padding: 20px; /* Padding di dalam header */
+    text-align: center; /* Teks tengah */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3); /* Border bawah */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Bayangan lembut */
+}
+
+h2 {
+    font-size: 2.5em; /* Ukuran font untuk judul */
+    margin-bottom: 20px; /* Jarak bawah judul */
+    text-shadow: 0 0 15px rgba(255, 255, 0, 0.9); /* Efek glow kuning */
+}
+
+.intro, .example, .features {
+    margin: 20px 0; /* Jarak atas dan bawah untuk section */
+    padding: 20px; /* Padding di dalam section */
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Border lembut */
+    border-radius: 10px; /* Sudut membulat */
+    background: rgba(255, 255, 255, 0.15); /* Latar belakang transparan */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2); /* Bayangan lembut */
+}
+
+strong {
+    color: #ffcc00; /* Warna kuning untuk teks tebal */
+    text-shadow: 0 0 10px rgba(255, 255, 0, 1); /* Efek glow kuning */
+}
+
+footer {
+    margin-top: 20px; /* Jarak atas footer */
+    padding: 20px; /* Padding di dalam footer */
+    text-align: center; /* Teks tengah */
+    background-color: rgba(26, 26, 26, 0.8); /* Latar belakang footer dengan transparansi */
+    color: #f2f2f2; /* Warna teks footer */
+    border-top: 1px solid rgba(255, 255, 255, 0.3); /* Border atas */
+    box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.5); /* Bayangan lembut */
+}
+
+nav {
+    background-color: rgba(26, 26, 26, 0.8); /* Latar belakang navbar dengan transparansi */
+    padding: 10px; /* Ruang dalam navbar */
+}
+
+nav ul {
+    list-style-type: none; /* Menghapus bullet points */
+    display: flex; /* Mengatur daftar menjadi flex */
+    justify-content: center; /* Menengahkan daftar */
+}
+
+nav ul li {
+    margin: 0 20px; /* Jarak antar item */
+}
+
+nav a {
+    color: #f2f2f2; /* Warna teks tautan */
+    text-decoration: none; /* Menghapus garis bawah */
+    font-weight: bold; /* Menguatkan teks tautan */
+    transition: color 0.3s; /* Transisi efek */
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.8), 0 0 10px rgba(255, 255, 255, 0.5); /* Efek cahaya putih */
+}
+
+nav a:hover {
+    color: #00ff99; /* Warna saat hover */
+    text-shadow: 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 0.5); /* Efek glow saat hover */
+}
