@@ -23,7 +23,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('/img/background1.jpg');
+    background-image: url('/img/bg1.jpg');
     background-size: cover;
     background-position: center;
     z-index: -1; /* Pastikan gambar latar di belakang konten */
@@ -41,7 +41,7 @@ body {
 }
 
 .main-content img {
-    border-radius: 50%; /* Membulatkan gambar profil */
+    border-radius: 30%; /* Membulatkan gambar profil */
     width: 150px;
     height: 150px;
     margin-bottom: 20px;
@@ -54,7 +54,7 @@ body {
 
 h2 {
     font-size: 36px;
-    color: #00796b; /* Warna hijau kebiruan */
+    color: #26998c; /* Warna hijau kebiruan */
     margin-bottom: 20px;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5); /* Efek bayangan pada teks */
 }
@@ -67,13 +67,13 @@ p {
 }
 
 p:hover {
-    color: #00796b; /* Mengubah warna teks saat di-hover */
+    color: #d68d2e; /* Mengubah warna teks saat di-hover */
 }
 
 footer {
     margin-top: 20px;
     font-size: 14px;
-    color: #888888;
+    color: #6e6e6e;
 }
 
 /* Animasi fade-in untuk konten */
@@ -90,7 +90,7 @@ footer {
 
 header {
     
-    background: linear-gradient(90deg, hsl(135, 93%, 43%), #333); /* Gradient yang lebih cerah */
+    background: linear-gradient(90deg, #a54c08, #080808);  /* Gradient yang lebih cerah */
     padding: 30px; /* Padding lebih besar untuk ruang yang lebih baik */
     text-align: center;
     border-bottom: 5px solid white;
@@ -126,12 +126,8 @@ h1 {
 
 .nav-penjelasan a:hover {
     border: none;
-    background-color: #007BFF; /* Warna latar belakang saat hover */
+    background-color: #0e161e; /* Warna latar belakang saat hover */
 }
-
-
-
-
 
 
 /* Tampilan utama dengan efek cahaya */
@@ -153,7 +149,7 @@ h1 {
     right: -5px; /* Memposisikan sedikit lebih dekat ke kanan */
     bottom: -5px; /* Memposisikan sedikit lebih dekat ke bawah */
     border-radius: 15px; /* Menyesuaikan sudut melengkung */
-    box-shadow: 0 0 20px rgba(0, 255, 0, 0.6); /* Bayangan berwarna hijau */
+    box-shadow: 0 0 20px rgba(255, 170, 0, 0.6); /* Bayangan berwarna hijau */
     pointer-events: none; /* Agar elemen ini tidak menghalangi interaksi dengan konten */
 }
 

@@ -23,7 +23,7 @@ app.use(express.static(direktoriPublic));
 app.get('/', (req, res) => { 
     res.render('index', { 
         judul: 'Aplikasi Cek Cuaca', 
-        nama: 'Chindy Rahmawati' 
+        nama: 'Syifa Lazuardi Akbar' 
     });
 });
 
@@ -55,7 +55,7 @@ app.get('/infoCuaca', (req, res) => {
 app.get('/bantuan/', (req, res) => {
     res.render('bantuan', {
         judul: 'Bantuan',
-        nama: 'Chindy Rahmawati',
+        nama: 'Syifa Lazuardi Akbar',
         teksBantuan: 'Ini adalah teks bantuan.'
     })
 });
@@ -64,14 +64,14 @@ app.get('/bantuan/', (req, res) => {
 app.get('/tentang/', (req, res) => {
     res.render('tentang', {
         judul: 'Tentang Saya',
-        nama: 'Chindy Rahmawati'
+        nama: 'Syifa Lazuardi Akbar'
     })
 });
 
 app.get('*', (req, res) => {
     res.render('404', {
         judul: '404',
-        nama: 'Chindy Rahmawati',
+        nama: 'Syifa Lazuardi Akbar',
         pesanKesalahan: 'Artikel yang dicari tidak ditemukan.'
     });
 });

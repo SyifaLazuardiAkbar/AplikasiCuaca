@@ -11,7 +11,7 @@ app.get('', (req, res) => {
 app.get('/tentang', (req, res) => { 
     res.render('tentang', { 
     judul: 'Tentang Saya', 
-    nama: 'cece' 
+    nama: 'iif' 
     }) 
 }) 
 
